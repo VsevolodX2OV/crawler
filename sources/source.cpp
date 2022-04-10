@@ -62,7 +62,6 @@ int loading_html() {
     }
     if (ec)
       throw boost::system::system_error{ ec };
-
   }
   catch (std::exception const& e)
   {
