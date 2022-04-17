@@ -1,11 +1,7 @@
-// Copyright 2021 by Enigma
-
-#include <stdexcept>
+// Copyright by Enigma
 
 #include <gtest/gtest.h>
 
-#include <example.hpp>
-
 TEST(Example, EmptyTest) {
-    EXPECT_THROW(example(), std::runtime_error);
+  EXPECT_TRUE(true);
 }
