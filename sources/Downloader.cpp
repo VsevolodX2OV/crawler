@@ -1,4 +1,4 @@
-// Copyright by Enigma
+//Copyright 2022 by Winter Solider
 #include <Downloader.h>
 
 Html Downloader::loading_https(std::string& host, const std::string& target) {
